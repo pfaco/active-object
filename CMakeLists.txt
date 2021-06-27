@@ -37,10 +37,9 @@ target_compile_features(
 ## Install headers
 install(
     FILES
-        include/gui/gui.h
-        include/gui/backend.h
+        include/activeobj/activeobj.h
      DESTINATION
-        include/gui
+        include/activeobj
 )
 
 install(
